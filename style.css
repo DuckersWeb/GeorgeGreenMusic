@@ -91,6 +91,7 @@
   /* BOX SECTIONS */
   .section {
     padding: 60px 7vw;
+    min-height: 1px; /* prevents collapse */
   }
 
   .box {
