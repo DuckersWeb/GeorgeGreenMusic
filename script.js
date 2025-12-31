@@ -1,4 +1,4 @@
-<script>
+
 // Fade-in on scroll
 const sections = document.querySelectorAll("section");
 
@@ -15,4 +15,4 @@ const observer = new IntersectionObserver(
 
 sections.forEach(sec => observer.observe(sec));
 
-</script>
+
